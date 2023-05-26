@@ -8,6 +8,13 @@
 #include <unistd.h>
 #include <string.h>
 
+/* Pass_betty_checks */
+int repeated_char(char *input, int a);
+int error_sep_op(char *input, int a, char end);
+int first_char(char *input, int *a);
+int check_betty_error(data_shell *datash, char *input)
+void print_betty_error(data_shell *datash, char *input, int a, int bool);
+
 /* main */
 int main(int ac, char **av, char **env);
 
