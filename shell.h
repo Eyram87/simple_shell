@@ -41,5 +41,11 @@ char *_strcpy(char *dest, char *src);
 char *_strcat(char *dest, char *src);
 int _atoi(char *s);
 
+/* env2.c */
+char *copy_info(char *info, char *value);
+void set_env(char *info, char *value, data_shell *datash);
+int _setenv(data_shell *datash);
+int _unsetenv(data_shell *datash);
+
 #endif /* _SHELL_H_ */
 
