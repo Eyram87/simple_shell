@@ -54,8 +54,12 @@ void set_env(char *info, char *value, data_shell *datash);
 int _setenv(data_shell *datash);
 int _unsetenv(data_shell *datash);
 
-/* cd_shell.c */
+/* cd_home.c */
 int cd_shell(data_shell *value);
+
+/* alias.c */
+int _myhistory(info_t *);
+int _myalias(info_t *);
 
 #endif /* _SHELL_H_ */
 
