@@ -61,5 +61,18 @@ int cd_shell(data_shell *value);
 int _myhistory(info_t *);
 int _myalias(info_t *);
 
+/* aux_var.c */
+char *strcat_cd(data_shell *, char *, char *, char *);
+char *error_get_cd(data_shell *datash);
+char *error_not_found(data_shell *datash);
+char *error_exit_shell(data_shell *datash);
+
+/* aux_var.c */
+char *error_get_alias(char **args);
+char *error_env(data_shell *datash);
+char *error_syntax(char **args);
+char *error_permission(char **args);
+char *error_path_126(data_shell *datash);
+
 #endif /* _SHELL_H_ */
 
