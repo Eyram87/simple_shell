@@ -54,5 +54,8 @@ void set_env(char *info, char *value, data_shell *datash);
 int _setenv(data_shell *datash);
 int _unsetenv(data_shell *datash);
 
+/* cd_shell.c */
+int cd_shell(data_shell *value);
+
 #endif /* _SHELL_H_ */
 
